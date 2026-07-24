@@ -74,7 +74,7 @@ The source code is available in the official 4Geeks Academy repository:
 
 **Francisco Garcia**
 
-Civil engineer and AI Engineering student focused on building clear, responsive, and accessible digital experiences.
+Civil engineer, Msc Mobile Computing and AI Engineering student focused on building clear, responsive, and accessible digital experiences.
 
 Built as part of the **4Geeks Academy AI Engineering program**.
 
