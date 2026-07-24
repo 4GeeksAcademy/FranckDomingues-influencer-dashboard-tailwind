@@ -63,3 +63,44 @@ The dashboard is organized into three main blocks:
 ```bash
 python3 -m http.server 3000
 ```
+
+## Repository
+
+The source code is available in the official 4Geeks Academy repository:
+
+`https://github.com/4GeeksAcademy/FranckDomingues-influencer-dashboard-tailwind`
+
+## Author
+
+**Francisco Garcia**
+
+Civil engineer and AI Engineering student focused on building clear, responsive, and accessible digital experiences.
+
+Built as part of the **4Geeks Academy AI Engineering program**.
+
+## Academic Context
+
+This project demonstrates the practical application of:
+
+- Semantic HTML5 landmarks and heading hierarchy.
+- Tailwind CSS v4 utility classes.
+- Mobile-first responsive design.
+- Responsive breakpoints for mobile, tablet, and desktop.
+- Reusable visual patterns for cards, panels, progress indicators, and tables.
+- Accessible navigation, focus states, progress bars, and tabular content.
+- Git commits organized by progressive development stages.
+
+The dashboard uses sample business data for educational purposes. Its primary objective is to demonstrate structure, responsive behavior, semantic HTML, and consistent Tailwind CSS implementation.
+
+## Project Status
+
+Completed and ready for evaluation.
+
+The final dashboard includes:
+
+- Six KPI cards.
+- Three performance-driver groups.
+- One four-stage conversion funnel.
+- One semantic operational table.
+- Responsive layouts tested at approximately 375px, 768px, and 1440px.
+- Keyboard navigation and accessibility improvements.
