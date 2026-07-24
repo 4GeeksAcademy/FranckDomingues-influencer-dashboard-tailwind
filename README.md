@@ -1,41 +1,65 @@
-# HTML Hello
+# Influencer Analytics Dashboard
 
-The most basic boilerplate for any 4Geeks Academy student, start your very first website from scratch.
+A responsive administrative dashboard created with semantic HTML5 and Tailwind CSS v4 for an influencer who needs to consolidate commissions, sales, platform performance, product performance, conversions, and operational details.
 
-> There is a video tutorial on [how to use this template to create your very first website here](https://youtu.be/dfbDCMu_p-0).
+## Project Overview
 
-## What to do next?
+This dashboard helps answer:
 
-Create an `index.html` file with the [basic HTML structure](http://4geeks.com/lesson/what-is-html-learn-html#page-structure) and see it live by running a web-server using the following command:
+- How much commission is being generated.
+- Which products generate the most revenue.
+- Which platforms provide the strongest performance.
+- How audiences progress through the conversion funnel.
+- How product sales and commissions compare.
+
+All displayed values are sample data for July 2026.
+
+## Features
+
+- Six KPI cards.
+- Platform performance for Instagram, TikTok, and YouTube.
+- Product performance for Products A, B, and C.
+- Four-stage conversion funnel.
+- Semantic operational product table.
+- Accessible progress indicators.
+- Keyboard-accessible navigation and skip link.
+- Mobile-first responsive design.
+
+## Technology
+
+- Semantic HTML5.
+- Tailwind CSS v4.
+- Tailwind browser CDN: https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4
+- Git and GitHub.
+
+This project uses no JavaScript framework, no custom CSS, and no Tailwind v3.
+
+## Responsive Design
+
+Tested viewport ranges:
+
+- Mobile: approximately 375px.
+- Tablet: approximately 768px.
+- Desktop: approximately 1440px.
+
+Responsive behavior includes:
+
+- KPI cards adapt from one to two to three columns.
+- Driver cards adapt responsively.
+- Funnel stages adapt from one to two to four columns.
+- The operational table scrolls inside its own wrapper on narrow screens.
+- The page itself has no horizontal overflow.
+
+## Dashboard Structure
+
+The dashboard is organized into three main blocks:
+
+1. Business Overview.
+2. Performance Drivers.
+3. Operational Details.
+
+## Run Locally
 
 ```bash
-$ pip3 install flask && python3 server.py
+python3 -m http.server 3000
 ```
-
-- You can create as many HTML files as you want.
-- You can also create CSS files and import them into your website using a `<link>` tag placed between the `<head></head>` tags, like this:
-
-```html
-<head>
-  ...
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```
-
-- If you want to use Tailwind CSS, add it optionally via the official Tailwind CSS v4 CDN inside the same `<head>`:
-
-```html
-<head>
-  ...
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```
-
-### Contributors
-
-This template was built as part of the [Full Stack Developer course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer) at [4Geeks Academy Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and [many other contributors](https://github.com/4GeeksAcademy/html-hello/graphs/contributors).
-
-You can find other templates and resources like this at the [school's GitHub page](https://github.com/4geeksacademy/).
